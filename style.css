@@ -1,0 +1,32 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.master-div{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+
+}
+.dragable-div{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(55, 170, 170);
+}
+.fa-solid{
+    font-size: 30px;
+    border: 2px solid rgb(9, 211, 211);
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(9, 211, 211);
+    margin-top: 15px;
+}
